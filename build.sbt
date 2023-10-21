@@ -1,4 +1,11 @@
+name := "Creative Scala book template"
+
 scalaVersion := "3.3.0"
+
+bspEnabled := false
+
+// triggeredMessage := Watched.clearWhenTriggered
+// autoStartServer := false
 
 console / initialCommands := """
       |import doodle.core.*
