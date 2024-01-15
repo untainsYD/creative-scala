@@ -45,4 +45,12 @@ object Example {
         // Comment out the above and uncomment the below to display the animation
         // animation.run(frame)
     }
+
+    def rec(i: Int): Unit = {
+        if (i == 0) return()
+
+        rec(i - 1);
+
+        println(i);
+    }
 }
