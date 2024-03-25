@@ -66,7 +66,4 @@ object PolarCoordinates extends App {
     //         .on(dot.at(Point(100, 180.degrees)))
     //         .on(dot.at(Point(100, 240.degrees)))
     //         .on(dot.at(Point(100, 300.degrees)))
-
-
-
 }
